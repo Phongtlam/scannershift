@@ -1,0 +1,40 @@
+.app-header {
+  display: flex;
+  flex-direction: row;
+  height: 66px;
+  max-height: 66px;
+  min-height: 66px;
+  background-color: #494949;
+  white-space: nowrap;
+}
+
+.app-header__button {
+  position: relative;
+  background-color: #494949;
+  padding: 5px 10px 0 10px;
+  line-height: 55px;
+  color: #fff;
+  border: none;
+  border-right: solid 1px #3f3f3f;
+  border-bottom: solid 5px #494949;
+}
+
+.app-header__button:hover {
+  border-bottom: solid 5px #20a0e9;
+}
+
+.app-header__button:active {
+  background-color: #366375;
+}
+
+.file-container [type=file] {
+  cursor: inherit;
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  text-align: right;
+  top: 0;
+}

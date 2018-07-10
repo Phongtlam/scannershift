@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  font-family: 'Open Sans','Helvetica Neue','Lucida Grande','Segoe UI',Ubuntu,'Droid Sans',sans-serif;
+  font-size: 14px;
+}
+
+button:focus {
+  outline: 0;
+}
