@@ -17,41 +17,46 @@ class App extends Component {
   }
 
   getAccountData() {
-    const url = 'https://api-sandbox.tradeshift.com/tradeshift/rest/external/account/info';
-    const oauth = OAuth({
-      consumer: {
-        key: process.env.REACT_APP_CONSUMER_KEY,
-        secret: process.env.REACT_APP_CONSUMER_SECRET,
-      },
-      signature_method: 'HMAC-SHA1',
-      hash_function(base_string, key) {
-        return crypto.createHmac('sha1', key).update(base_string).digest('base64');
-      }
-    });
-    const request_data = {
-      url: url,
-      method: 'GET'
-    };
-    const token = {
-      key: process.env.REACT_APP_TOKEN,
-      secret: process.env.REACT_APP_TOKEN_SECRET
-    };
-    axios(url, {
-      headers: {...oauth.toHeader(oauth.authorize(request_data, token))}
-    })
-    .then(response => {
-      console.log(response)
-      if (response.status !== 200) {
-        console.log(`There is a problem with connection, status code ${response.status}`);
-        return;
-      }
-      return response.data;
-    })
-    .then(data => {
-      console.log('what is body', data)
-    })
-    .catch(error => {
-      console.log('error', error);
+    // const url = 'https://api-sandbox.tradeshift.com/tradeshift/rest/external/account/info';
+    // const oauth = OAuth({
+    //   consumer: {
+    //     key: process.env.REACT_APP_CONSUMER_KEY,
+    //     secret: process.env.REACT_APP_CONSUMER_SECRET,
+    //   },
+    //   signature_method: 'HMAC-SHA1',
+    //   hash_function(base_string, key) {
+    //     return crypto.createHmac('sha1', key).update(base_string).digest('base64');
+    //   }
+    // });
+    // const request_data = {
+    //   url: url,
+    //   method: 'GET'
+    // };
+    // const token = {
+    //   key: process.env.REACT_APP_TOKEN,
+    //   secret: process.env.REACT_APP_TOKEN_SECRET
+    // };
+    // axios(url, {
+    //   headers: {...oauth.toHeader(oauth.authorize(request_data, token))}
+    // })
+    // .then(response => {
+    //   console.log(response)
+    //   if (response.status !== 200) {
+    //     console.log(`There is a problem with connection, status code ${response.status}`);
+    //     return;
+    //   }
+    //   return response.data;
+    // })
+    // .then(data => {
+    //   console.log('what is body', data)
+    // })
+    // .catch(error => {
+    //   console.log('error', error);
+    // })
+
+    axios.get('http://localhost:3043/googleV')
+    .then(res => {
+      console.log('what is res from googlv route', res)
     })
   }
 

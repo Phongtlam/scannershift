@@ -4,17 +4,50 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "chalk": "2.4.1",
     "crypto": "^1.0.1",
+    "datauri": "1.1.0",
+    "docker-names": "1.0.3",
+    "dotenv": "5.0.1",
+    "execa": "0.10.0",
+    "handlebars": "4.0.11",
+    "js-base64": "2.4.3",
+    "jwt-simple": "0.5.1",
+    "koa": "2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-error": "3.2.0",
+    "koa-morgan": "1.0.1",
+    "koa-passport": "4.0.1",
+    "koa-router": "7.4.0",
+    "koa-session": "5.8.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "6.1.4",
+    "localtunnel": "1.8.3",
     "normalize.css": "^8.0.0",
     "oauth-1.0a": "^2.2.4",
+    "passport-oauth2": "1.4.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "request": "2.85.0",
+    "request-promise-native": "1.0.5",
+    "uuid": "3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "nodemon": "1.17.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "create-app": "node scripts/create-app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js src/server.js",
+    "lint": "eslint scripts src",
+    "start-app": "node scripts/start-app.js",
+    "start-server": "node src/server.js"
   }
 }

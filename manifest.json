@@ -1,0 +1,34 @@
+{
+  "config": {
+    "externalurl": true
+  },
+  "default_locale": "en-us",
+  "icons": {
+    "svg": "PhongLam.AdoringLeakey.svg"
+  },
+  "manifest_version": "3.0",
+  "tradeshift_version": "5.0",
+  "version": "0.0.1",
+  "app_id": "AdoringLeakey",
+  "vendor_id": "PhongLam",
+  "app": {
+    "main": "https://phonglamadoringleakey.localtunnel.me/",
+    "redirect_uri": "https://phonglamadoringleakey.localtunnel.me/auth/callback"
+  },
+  "capabilities": {
+    "access": [
+      "group_view",
+      "openidconnect"
+    ]
+  },
+  "backends": {},
+  "images": {
+    "PhongLam.AdoringLeakey.svg": "data:image/svg+xml;base64,Cgk8c3ZnIHdpZHRoPSIxNzYiIGhlaWdodD0iMTc2IiB2aWV3Qm94PSIwIDAgMTc2IDE3NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCQk8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgoJCQk8cGF0aAoJCQkJZD0iTTE2LjY3MiAxNzZDNy40NjQgMTc2IDAgMTY4LjUzNiAwIDE1OS4zMjhWMTYuNjcyQzAgNy40NjQgNy40NjQgMCAxNi42NzIgMGgxNDIuNjU2QzE2OC41MzYgMCAxNzYgNy40NjQgMTc2IDE2LjY3MnYxNDIuNjU2YzAgOS4yMDgtNy40NjQgMTYuNjcyLTE2LjY3MiAxNi42NzJIMTYuNjcyeiIKCQkJCWZpbGw9IiMzNjYzNzUiCgkJCQlmaWxsLXJ1bGU9Im5vbnplcm8iIC8+CgkJCTxwYXRoIGQ9Ik0zMi4wMDQgMzJoMTA3LjUydjEwNy41MjlIMzIuMDA0eiIgLz4KCQkJPHBhdGgKCQkJCWQ9Ik0xMzAuNTYgNDAuOTZjLTEuNDUyLTEuNDQ3LTMuNjUxLTIuMTI0LTYuOTIyLTIuMTI0LTYuNTUgMC0xOS4zOTQgMy4wOTItMjcuOTIzIDExLjYyNkw3OC4wMTkgNjguMTU0aC0yOS44MmE0LjUwMiA0LjUwMiAwIDAgMC0zLjE3MSAxLjMxMmwtMy4xNjggMy4xNzJhNC40ODkgNC40ODkgMCAwIDAgMCA2LjM0bDUwLjY4NyA1MC42ODJhNC40NjggNC40NjggMCAwIDAgMy4xNjggMS4zMTIgNC40NjggNC40NjggMCAwIDAgMy4xNjctMS4zMTJsMy4xNzItMy4xNjhhNC40NzQgNC40NzQgMCAwIDAgMS4zMDgtMy4xNzJWOTMuNDk3bDE3LjY5Ni0xNy42OTZjNi40NDItNi40MzggOS4yODItMTQuNzUzIDEwLjM5OC0xOS4xMjUuOTA1LTMuNTUzIDIuNjMtMTIuMTktLjg5Ni0xNS43MTZ6TTY5LjA2MyA3Ny4xMTRsLTguMTk0IDguMTk0LTguMTk4LTguMTk0aDE2LjM5MnptLTEuODYgMTQuNTMzbDMxLjY3OS0zMS42NzggMTIuNjcgMTIuNjY1LTMxLjY3NCAzMS42ODItMTIuNjc0LTEyLjY3em0yNy4yMDMgMjcuMTk4bC04LjE5NC04LjE5IDguMTk0LTguMTk4djE2LjM4OHptMjMuMTY2LTUyLjg2TDEwNS41MyA1My45NDNjNi4yNzItNC40MDQgMTQuMDM2LTYuMTQ3IDE4LjEwOC02LjE0N2guMTI2Yy4wNTQgMy42MTEtMS42MjYgMTEuNjg0LTYuMTkyIDE4LjE5ek02Ny4yIDExNi45OWMtMi4wMTcgMi4wMTItOS43MDkgMy43NTQtMTcuMjY3IDQuNTkyLjg1Ni03LjU4NSAyLjYzLTE1LjMwNCA0LjU5Ny0xNy4yNjYgMS4xNTYtMS4xNiAyLjU2Ny0xLjg5NSA0LjA0NS0yLjI5bC02Ljc2NC02Ljc2NGMtMS4yODIuNzUzLTIuNTE4IDEuNjE3LTMuNjE2IDIuNzE1LTYuMTUgNi4xNTUtNy40NDEgMjQuNjMxLTcuNjM4IDI4LjI3M2wtLjI2OSA0Ljk4MiA0Ljk4Ni0uMjY5YzMuNjQyLS4xOTcgMjIuMTE4LTEuNDk2IDI4LjI2NS03LjY0MyAxLjEwMi0xLjEwMiAxLjk2Mi0yLjMzNCAyLjcxNC0zLjYybC02Ljc2NC02Ljc2OWMtLjM5IDEuNDkyLTEuMTI1IDIuODk0LTIuMjkgNC4wNnoiCgkJCQlmaWxsLXJ1bGU9Im5vbnplcm8iCgkJCQlmaWxsPSIjRkZGIiAvPgoJCTwvZz4KCTwvc3ZnPgo="
+  },
+  "locales": {
+    "en-us": {
+      "app_desc": "A hand-crafted app from PhongLam, with a little help from bucko.",
+      "app_name": "Adoring Leakey"
+    }
+  }
+}
